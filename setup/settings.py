@@ -152,3 +152,12 @@ SOCIALACCOUNT_PROVIDERS = {
         }
     }
 }
+
+# Sempre que o login for realizador redirecionar para essa url
+LOGIN_REDIRECT_URL = '/members'
+
+SOCIALACCOUNT_LOGIN_ON_GET = True
+
+ACCOUNT_LOGOUT_ON_GET = True
+
+LOGOUT_REDIRECT_URL = '/'
